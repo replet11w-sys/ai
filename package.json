@@ -1,6 +1,7 @@
 {
-  "name": "discord-unrestricted-bot",
+  "name": "discord-gemini-bot",
   "version": "1.0.0",
+  "description": "بوت ديسكورد غير مقيد باستخدام Gemini",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
@@ -8,7 +9,10 @@
   "dependencies": {
     "discord.js": "^14.14.1",
     "express": "^4.18.2",
-    "openai": "^4.28.0",
-    "dotenv": "^16.4.1"
+    "dotenv": "^16.4.1",
+    "@google/generative-ai": "^0.21.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
